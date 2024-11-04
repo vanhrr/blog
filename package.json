@@ -1,0 +1,32 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test",
+    "watch": "node-sass -w src/resources/scss/app.scss src/public/css/app.css"
+  },
+  "keywords": [
+    "JavaScriptJavaScript"
+  ],
+  "author": "Viet Anh",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "morgan": "^1.10.0",
+    "node": "^21.2.0",
+    "nodemon": "^3.0.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "node-sass": "^9.0.0",
+    "prettier": "^3.1.1"
+  }
+}
